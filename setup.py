@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="phenodb_api", 
     version="0.0.1",
-    author="Serdar Ozsezen",
+    author="Serdar Özsezen",
     author_email="serdar.ozsezen@tno.nl",
     description="Python API for collecting data from Phenotype Database",
     long_description=long_description,
