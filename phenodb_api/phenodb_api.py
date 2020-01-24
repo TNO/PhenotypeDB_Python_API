@@ -1,4 +1,4 @@
-import os
+import platform
 import logging 
 import subprocess
 import hashlib 
@@ -27,7 +27,7 @@ def generate_device_id(user_name):
     Returns:
         str -- Device id
     """
-    machine_id = ".".join(list(os.uname()))
+    machine_id = ".".join(list(platform.uname()))
     # machine_id = subprocess.check_output('wmic csproduct get uuid')\
     # .decode().split('\n')[1].strip().lower()
     device_id = md5_digest(machine_id + user_name)
