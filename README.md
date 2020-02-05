@@ -6,7 +6,7 @@ Python API for collecting data from Phenotype Database.
 
 In order to install, clone the repository first: 
 ```
-git clone git@gitlab-dv.tno.nl:DataScience-MSB/Tools/phenotypedb_python_api.git --depth 1 
+git clone https://github.com/TNO/PhenotypeDB_Python_API.git --depth 1 
 ```
 Then change directory to the folder of the repository:
 ```
