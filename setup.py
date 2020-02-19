@@ -11,7 +11,7 @@ setuptools.setup(
     description="Python API for collecting data from Phenotype Database",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab-dv.tno.nl/DataScience-MSB/Tools/phenotypedb_python_api",
+    url="https://github.com/TNO/PhenotypeDB_Python_API",
     packages=setuptools.find_packages(),
     install_requires=[
         'requests'
