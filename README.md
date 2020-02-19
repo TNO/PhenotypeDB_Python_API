@@ -32,7 +32,3 @@ In order to make requests from [Phenotype Database](https://dashin.eu/interventi
 ```
 
 Almost all of the methods are copied from [R API](https://gitlab-dv.tno.nl/DataScience-MSB/RPackages/PhenotypeDatabase-RClient).
-
-## Contact 
-
-In case of questions or issues, contact [@ozsezens](https://gitlab-dv.tno.nl/ozsezens). 
